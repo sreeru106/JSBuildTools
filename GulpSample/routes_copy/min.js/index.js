@@ -1,0 +1,1 @@
+var express=require("express"),router=express.Router();router.get("/",function(e,r,t){r.render("index",{title:"Employee registartion"})}),module.exports=router;
